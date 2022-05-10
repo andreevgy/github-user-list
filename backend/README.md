@@ -12,7 +12,7 @@ GITHUB_API_HOST=https://api.github.com
 ```
 
 * Run start command to build and start server
-```bash
+```shell
 npm start
 # or
 yarn start

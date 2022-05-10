@@ -4,9 +4,14 @@ Frontend app is using a very basic approach just leveraging data fetching to get
 
 ## Getting Started
 
+* Ensure you have next settings in your env (example below)
+```
+API_HOST=http://localhost:8080
+```
+
 To run dev server
 
-```bash
+```shell
 npm run dev
 # or
 yarn dev
@@ -14,7 +19,7 @@ yarn dev
 
 To start in production
 
-```bash
+```shell
 # build first
 npm run build
 # or 

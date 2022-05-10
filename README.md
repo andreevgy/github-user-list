@@ -2,8 +2,15 @@
 
 ## Getting Started
 
+Install packages for both frontend and backend. You can do it by simply running this at the root of repository:
+```shell
+npm i
+# or
+yarn
+```
+
 To start both frontend and backend in dev you can run
-```bash
+```shell
 npm run dev
 # or
 yarn dev
