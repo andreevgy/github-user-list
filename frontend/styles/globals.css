@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+thead td {
+  font-weight: bold;
+}
+
+td:not(:last-child) {
+  padding-right: 12px;
+}

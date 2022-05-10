@@ -6,8 +6,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "cd backend && npm i && cd ../frontend && npm i",
     "start-backend": "cd backend && npm start",
-    "start-frontend": "cd frontend && npm run dev",
-    "start": "npm-run-all --parallel start-backend start-frontend"
+    "start-frontend-dev": "cd frontend && npm run dev",
+    "build-frontend": "cd frontend && npm run build",
+    "start-frontend": "cd frontend && npm start",
+    "start": "npm run build-frontend && npm-run-all --parallel start-backend start-frontend",
+    "dev": "npm-run-all --parallel start-backend start-frontend-dev"
   },
   "author": "",
   "license": "ISC",
