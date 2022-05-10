@@ -1,7 +1,0 @@
-.idea
-dist
-node_modules
-
-# Obviously we dont want actual .env files here, better to have .env.example here so everyone is able to configure it
-# But for simplicity I left it here
-# .env
